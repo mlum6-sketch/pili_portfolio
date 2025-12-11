@@ -1,0 +1,62 @@
+:root {
+  --green: #4A6653;
+  --sage: #8FAF99;
+  --cream: #F4ECE6;
+  --brown: #7A5C42;
+  --rose: #D9B7A6;
+  --text-dark: #333;
+  --text-light: #777;
+}
+
+body {
+  background: var(--cream);
+  font-family: Arial, sans-serif;
+  color: var(--text-dark);
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.hero-img,
+.project-hero-img {
+  width: 100%;
+  height: 300px;
+  background: var(--sage);
+  border-radius: 12px;
+}
+
+.btn-primary-custom {
+  background: var(--green);
+  color: white;
+  border-radius: 24px;
+  padding: 10px 22px;
+  border: none;
+}
+
+.btn-outline-custom {
+  border: 2px solid var(--green);
+  border-radius: 24px;
+  padding: 10px 22px;
+  color: var(--green);
+}
+
+.project-thumb {
+  width: 100%;
+  height: 200px;
+  background: var(--rose);
+  border-radius: 12px;
+}
+
+.process-img {
+  width: 100%;
+  height: 200px;
+  background: var(--brown);
+  border-radius: 12px;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 14px;
+  color: var(--text-light);
+}
